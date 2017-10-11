@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <v-template>
-      <div slot="main">
+      <div slot="main" class="hello-main">
         <img src="../../assets/logo.png" alt="">
         <h1>{{ msg }}</h1>
         <h2>Essential Links</h2>
@@ -28,7 +28,7 @@
   import Template from '@/components/templates/Fullpage';
 
   export default {
-    name: 'hello',
+    name: 'hello-page',
     data() {
       return {
         msg: 'Welcome to Your Vue.js App',
@@ -42,7 +42,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .hello {
+  .hello-main {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

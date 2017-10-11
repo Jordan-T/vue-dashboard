@@ -3,3 +3,12 @@ export const CHECKOUT_REQUEST = 'CHECKOUT_REQUEST';
 export const CHECKOUT_SUCCESS = 'CHECKOUT_SUCCESS';
 export const CHECKOUT_FAILURE = 'CHECKOUT_FAILURE';
 export const RECEIVE_PRODUCTS = 'RECEIVE_PRODUCTS';
+
+// TODOS
+export const SET_TODOS = 'SET_TODOS';
+export const SET_TODOS_LOADING = 'SET_TODOS_LOADING';
+export const SET_TODOS_STATUS = 'SET_TODOS_STATE';
+export const ADD_TODO = 'ADD_TODO';
+export const REMOVE_TODO = 'REMOVE_TODO';
+export const TOGGLE_TODO = 'TOGGLE_TODO';
+export const EDIT_TODO = 'EDIT_TODO';

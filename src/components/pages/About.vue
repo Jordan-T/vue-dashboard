@@ -17,7 +17,7 @@
   import Template from '@/components/templates/SidebarLeft';
 
   export default {
-    name: 'about',
+    name: 'about-page',
     data() {
       return {
         msg: 'Welcome to Your Vue.js App',

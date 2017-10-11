@@ -17,7 +17,7 @@
   import Template from '@/components/templates/Fullpage';
 
   export default {
-    name: 'home',
+    name: 'home-page',
     data() {
       return {
         msg: 'Welcome to Your Vue.js App',
