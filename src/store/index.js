@@ -4,6 +4,7 @@ import * as actions from './actions';
 import * as getters from './getters';
 import cart from './modules/cart';
 import products from './modules/products';
+import todos from './modules/todos';
 
 Vue.use(Vuex);
 
@@ -15,6 +16,7 @@ export default new Vuex.Store({
   modules: {
     cart,
     products,
+    todos,
   },
   strict: debug,
   plugins: [],
