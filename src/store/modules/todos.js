@@ -57,7 +57,6 @@ const actions = {
     const done = !todo.done;
     commit(types.SET_TODOS_LOADING, { loading: true });
     todosApi.editTodo(todo.id, {
-      ...todo,
       done,
     }).then(() => {
       commit(types.TOGGLE_TODO, { todo, done });
@@ -67,7 +66,6 @@ const actions = {
   editTodo({ commit }, { todo, text }) {
     commit(types.SET_TODOS_LOADING, { loading: true });
     todosApi.editTodo(todo.id, {
-      ...todo,
       text,
     }).then(() => {
       commit(types.EDIT_TODO, { todo, text });

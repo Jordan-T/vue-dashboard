@@ -15,7 +15,7 @@ export function addTodo(todo) {
 }
 
 export function editTodo(id, todo) {
-  return api.put(`/${id}`, todo);
+  return api.patch(`/${id}`, todo);
 }
 
 export function removeTodo(id) {
