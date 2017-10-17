@@ -2,7 +2,7 @@
   <div class="Todos" :class="{ 'Todos--loading': todosLoading }">
     <h1>{{ title }}</h1>
     <div class="Todos-main">
-      <div v-if="Todos-loading">
+      <div v-if="todosLoading" class="Todos-loading">
         LOADING !!!!
       </div>
       <form @submit.prevent="onSubmit" class="Todo-form">
